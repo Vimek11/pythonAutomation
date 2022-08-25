@@ -1,0 +1,13 @@
+[[source]]
+url = "https://artifactory.apps.bancolombia.com/api/pypi/pypi-bancolombia/simple"
+verify_ssl = false
+name = "pypi"
+
+[packages]
+selenium = "*"
+behave = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
