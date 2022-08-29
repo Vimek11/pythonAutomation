@@ -6,3 +6,5 @@ Scenario: Logo presence on Google home Page
     Then  verify that the logo  present on page
     And close browser
 
+
+

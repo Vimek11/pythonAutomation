@@ -1,11 +1,13 @@
 [[source]]
-url = "https://artifactory.apps.bancolombia.com/api/pypi/pypi-bancolombia/simple"
-verify_ssl = false
+url = "https://pypi.python.org/simple"
+verify_ssl = true
 name = "pypi"
 
 [packages]
 selenium = "*"
 behave = "*"
+screenpy = "*"
+screenpy-selenium = "*"
 
 [dev-packages]
 
